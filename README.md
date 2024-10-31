@@ -15,7 +15,6 @@ This code uses Python's multiprocessing library to perform parallel matrix-vecto
 
 2. Matrix-Vector Multiplication with MPI
 This code uses the mpi4py library, which provides MPI (Message Passing Interface) support for Python. This program is designed to be distributed across multiple processors, potentially on different machines, making it suitable for high-performance computing clusters.
-
 **Key Components:**
 - MPI Communication: Uses MPI.COMM_WORLD for communication between processes.
 - Broadcast: Sends the vector from the root process to all other processes.
